@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Saira+Condensed:wght@100&display=swap');
+
+body{
+    height: auto;
+    margin: auto;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Saira Condensed', sans-serif;
+	background: linear-gradient(rgba(83, 76, 76, 0.8), rgb(37, 0, 248));
+	
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Saira Condensed', sans-serif;
+    color:black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    
+    border-top: 0.4px solid black ;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Saira Condensed', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.left-login-image{
+    width: 35vw;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: linear-gradient rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow:  0px 10px 40px black;
+    font-size: 18px;
+}
+
+.card-login > h1{
+    color: white;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: black;
+    color:black;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px black;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.textfield > input{
+    color: white;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px black;
+}
+.conteudo-principal-imagem{
+    height: 480px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid black;
+    padding-top: 48px;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300px;
+    font-size: 18px;
+    color: white;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid black;   
+}
+
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
